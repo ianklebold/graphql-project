@@ -2,9 +2,12 @@
 
 
 ![image](https://user-images.githubusercontent.com/56406481/212442391-eeacfc6d-a3b4-4afe-a284-8bc875281b0b.png)
+
+
 Es un lenguaje de consulta y manipulacion de datos para apis, permitiendo gestionar los datos y hacer las consultas mas eficientes. Es my eficiente en cuanto a consultas ,permite variar la respuesta dependiendo de la request.
 
 ![image](https://user-images.githubusercontent.com/56406481/212442522-ad2f05ca-245f-421a-a6f4-1fc235c5671e.png)
+
 Es posible que no todos los datos sean necesarios en una consulta, por lo que podemos variar estos haciendolo mas eficiente. 
 
 + Tiene un unico punto de acceso, por defecto "/graphql"
