@@ -1,0 +1,43 @@
+type Query
+{
+    findAllProducts : [Product]
+    findAllFeaturesByProduct(id:Int!) : [Feature]
+}
+
+type Mutation
+{
+    addProduct(productInput:ProductInput!):Product!
+    updateProduct(id:Int!,productInput:ProductInput!):Product!
+    deleteProduct(id:Int!):Product
+
+}
+
+type Product
+{
+    id: Int
+    features: [Feature]
+    name: String
+    price: Float
+    description: String
+    stock: Int
+    creationDate: String
+    updateDate: String
+}
+
+type Feature
+{
+    id: Int
+    productId:Int
+    name: String
+    description: String
+    creationDate: String
+    updateDate: String
+}
+
+input ProductInput
+{
+    name: String!
+    price: String!
+    description: String
+    stock: Int!
+}
